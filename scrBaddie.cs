@@ -1,9 +1,11 @@
 ﻿//changes
 
+using UnityEngine;
 using System.Collections;
 
 public class scrBaddie : MonoBehaviour {
 
+    public int hp = 3;
     private  static float speedmodifier = 0.01f;
     public float detectionradius = 1.5f;
     private bool active = false;
